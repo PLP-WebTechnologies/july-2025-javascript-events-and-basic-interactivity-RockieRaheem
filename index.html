@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Web Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>🧠 Interactive Web Page Assignment</h1>
+
+    <!-- Part 1: Event Handling -->
+    <button id="messageBtn">Click Me!</button>
+    <p id="messageText"></p>
+
+    <!-- Part 2: Interactive Elements -->
+    <section>
+      <h2>Light/Dark Mode</h2>
+      <button id="toggleTheme">Toggle Theme</button>
+    </section>
+
+    <section>
+      <h2>Counter</h2>
+      <button id="increaseBtn">+</button>
+      <button id="decreaseBtn">-</button>
+      <p id="counter">0</p>
+    </section>
+
+    <!-- Part 3: Form Validation -->
+    <section>
+      <h2>Signup Form</h2>
+      <form id="signupForm">
+        <label>Name: <input type="text" id="name" /></label>
+        <p class="error" id="nameError"></p>
+
+        <label>Email: <input type="email" id="email" /></label>
+        <p class="error" id="emailError"></p>
+
+        <label>Password: <input type="password" id="password" /></label>
+        <p class="error" id="passwordError"></p>
+
+        <button type="submit">Submit</button>
+      </form>
+      <p id="successMessage"></p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
